@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.button {
+  height: 40pt;
+  width: 40pt;
+  border-radius: 100%;
+  background-color: #e7901d;
+  position: fixed;
+  bottom: 30pt;
+  right: 20pt;
+}
+.header {
+  background-color: #800080;
+  width: 100vw;
+  height: 55vw;
+}
+.paint1,
+.paint2,
+.paint3,
+.paint4,
+.paint5 {
+  width: 100vw;
+  height: 40vw;
+}
+.paint1 {
+  background-color: #bf2617;
+}
+.paint2 {
+  background-color: #63dd2c;
+}
+.paint3 {
+  background-color: #d1cf0a;
+}
+.paint4 {
+  background-color: #1238d9;
+}
+.paint5 {
+  background-color: #20c1c1;
+}

@@ -6,8 +6,8 @@
 .button,
 .button1,
 .button2 {
-  height: 40pt;
-  width: 40pt;
+  height: 100pt;
+  width: 100pt;
   border-radius: 100%;
   background-color: #e7901d;
   position: fixed;
@@ -15,12 +15,12 @@
   right: 20pt;
 }
 .button1 {
-  bottom: 90pt;
+  bottom: 160pt;
   transform: scale(0);
   background-image: url("info.svg");
 }
 .button2 {
-  bottom: 150pt;
+  bottom: 290pt;
   transform: scale(0);
   background-image: url("paint brush.svg");
 }

@@ -22,7 +22,7 @@
 .button2 {
   bottom: 150pt;
   transform: scale(0);
-  background-image: url("paint.svg");
+  background-image: url("paint brush.svg");
 }
 .load_button {
   animation: button_load 300ms ease-in-out forwards;

@@ -6,8 +6,8 @@
 .button,
 .button1,
 .button2 {
-  height: 300pt;
-  width: 300pt;
+  height: 300px;
+  width: 300px;
   border-radius: 100%;
   background-color: #e7901d;
   position: fixed;

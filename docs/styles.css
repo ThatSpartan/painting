@@ -17,10 +17,12 @@
 .button1 {
   bottom: 90pt;
   transform: scale(0);
+  background-image: url("info.svg");
 }
 .button2 {
   bottom: 150pt;
   transform: scale(0);
+  background-image: url("paint.svg");
 }
 .load_button {
   animation: button_load 300ms ease-in-out forwards;

@@ -14,6 +14,9 @@
   bottom: 30pt;
   right: 20pt;
 }
+.button {
+  background-image: url("when_closed.svg");
+}
 .button1 {
   bottom: 160pt;
   transform: scale(0);
@@ -32,6 +35,11 @@
 }
 .open {
   background-color: #714cdb;
+}
+.open.button {
+  background-size: 80%;
+  background-position: center;
+  background-image: url("when_opened.svg");
 }
 .header {
   background-color: #800080;

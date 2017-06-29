@@ -80,6 +80,23 @@
   background-color: #20c1c1;
   background-image: url("paint_5.jpg");
 }
+/* PAINTING CLICKED TO ENLARGE */
+.clicked {
+  background-color: #141414;
+  position: fixed;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 150;
+}
+._clicked {
+  height: auto;
+}
 @-moz-keyframes button_load {
   0% {
     transform: scale(0.1);

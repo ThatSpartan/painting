@@ -1,5 +1,17 @@
 (function() {
   $(document).ready(function() {
+    $('.clicked').hide();
+    return $('.paintings > div').on('click', function() {
+      var source;
+      source = $(this).css('background-image');
+      return console.log(source);
+    });
+  });
+
+}).call(this);
+
+(function() {
+  $(document).ready(function() {
     var load, unload;
     $('.button').addClass('load_button');
     load = function(x, y, z) {
